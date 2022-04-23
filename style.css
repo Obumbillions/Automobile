@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5px;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.right-section ul {
+    list-style: none;
+    display: flex;
+}
+
+.road-assistance {
+    display: flex;
+    padding-left: 20px;
+}
+
+.right-section ul li {
+    margin-right: 20px;
+}
+
+.right-section ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.right-section .navigation {
+    border-right: 2px solid #ccc;
+}
+
+.road-assistance .icon {
+    margin-right: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+#hero-section .text-section{
+    width: 45%;
+} 
+
+#hero-section .image-section {
+    width: 55%;
+}
+
+#hero-section, #quote-section {
+    padding: 80px 0;
+}
+
+#hero-section .image-section {
+    background-image: url(images/header-image.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 68vh;
+}
+
+.text-section h1 {
+    font-size: 64px;
+}
+
+.orange-btn {
+    background: #FF6433;
+    border-radius: 12px;
+    padding: 16px 40px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 35px;
+    display: inline-block;
+    color: #fff;
+}
+
+.time-section {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.text-section .image-box {
+    width: 5%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-section .time-text {
+    width: 95%;
+}
+.time-section img {
+    width: 100%;
+}
+
+.light-grey {
+    color: #939191;
+}
+
+#quote-section {
+    background: #E2E6E9;
+}
+
+#quote-section .left-section, #quote-section .right-form-section {
+    width: 45%;
+}
+
+#quote-section ul {
+    list-style: none;
+}
+
+#quote-section ul li {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#quote-section .left-section h2 {
+    margin-bottom: 30px;
+    font-size: 58px;
+}
+
+#quote-section .left-section .image-box {
+    width: 5%;
+    margin-right: 10px;
+}
+
+#quote-section .left-section .image-box img {
+    width: 100%;
+}
+
+
+#quote-section .left-section .text-box {
+    width: 50%;
+}
+
+#quote-section .left-section .text-box h5 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+#quote-section .right-form-section h3{
+    font-size: 48px;
+}
+
+#quote-section .right-form-section input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#link{
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 25px;
+    margin-right: 0;
+    justify-content:center;
+    align-items:center;
+}
+
+a:hover,
+#learnMore:hover,
+button:hover{
+    color: black;
+    background-color:white;
+}
+
+button{
+    border:none;
+}
+
+#arrow{
+ margin-left: -100px;
+box-sizing: border-box;
+}
+.txt-break{
+    display:block;
+}
+.third-section h2{
+font-size:58px;
+padding-top:120px;
+}
+.third-section{
+    margin:60px 0;
+}
+.getting-started
+{
+    width:40%;
+}
+.left-text{
+    width:60%;
+}
+.left-text p{
+    margin-bottom:40px;
+    font-size:16px;
+}
+
+#learnMore{
+    padding: 10px 30px;
+    color:white;
+    border-radius:5px;
+    background: #FF6433;
+    text-decoration: none;
+
+}
+.service-section{
+    background: #F2F2F2;
+    text-align:center;
+
+}
+.flex-box{
+    display: flex;
+    justify-content:space-evenly;
+}
+.image-cont{
+    width:40%;
+    background: #FFFFFF;
+    border:2px solid #F2F2F2;
+    ;
+    padding: 50px;
+}
+.image-wheels{
+    background:#FF6433;
+}
+.service-section h2{
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 58px;
+line-height: 76px;
+text-align: center;
+letter-spacing: -0.03em;
+color: #1E1B1B;
+margin-bottom: 30px;
+}
+
+.service-section{
+    padding-top: 20px;
+}
+.service-section p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    padding-top: 30px;
+}
+
+#serviceSectLink{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+   
+   
+}
+
+#aboutusLink{
+    margin-right: 10px;
+    text-decoration: none;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-size: 18px;
+    color: #1E1B1B;
+  
+}
+#arrow2{
+    font-weight: 600;
+    font-size: 18px;
+}
+.image-cont:hover,
+.image-cont:focus{
+    color: #1E1B1B;
+    background-color:#FF6433; 
+}
+.image-wheels:focus,
+.image-wheels:hover,
+.navigation ul li:hover,
+.navigation ul li:focus{
+    color:#FF6433;
+    background-color:#1E1B1B;
+}
+.pic-sectn-num{
+    margin: 40px;
+}
+
+.pic-sectn{
+    background-color:#F2F2F2;
+    padding: 40px 20px;
+}
+
+
+.orange-bg{
+    width: 900px;
+    background-color:orange;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.4;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    padding:200px 30px;
+    
+}
+
+#car-parts #car-boot{
+    width: 500px;
+    margin-right: -100px;
+    object-fit: cover;
+   
+}
+#car-parts #car-engine{
+    width: 700px;
+    margin-left: -100px;
+   
+}
+.our-partners{
+    text-align: center;
+    background: #FAFAFA;
+}
+.our-partners h3{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #1E1B1B;
+   padding-top:40px;
+}
+.our-partners img{
+   width: 150px;
+}
