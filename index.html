@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Automobile</title>
 </head>
-<body>
+<body class="wrapper">
     <header>
         <div class="container">
             <div class="main-header">
@@ -20,11 +20,11 @@
                 <div class="right-section">
                     <div class="navigation">
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#" id="about-us">About Us</a></li>
+                            <li><a href="service.html">Services</a></li>
+                            <li><a href="#" id="blog">Blog</a></li>
+                            <li><a href="#" id="contact">Contact</a></li>
                         </ul>
                     </div>
                     <div class="road-assistance">
@@ -37,14 +37,13 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            
+            </div> 
         </div>
     </header>
     <!-- hero-section -->
     <section id="hero-section">
-        <div class="container">
-            <div class="flex">
+        <div class="container ">
+            <div class="flex hero-section-box">
                 <div class="text-section">
                     <h1>Get your vehicle service done online at one place</h1>
                     <a href="#" class="orange-btn">Book a service</a>
@@ -67,7 +66,7 @@
     <!-- quote-section -->
     <section id="quote-section">
         <div class="container">
-            <div class="flex">
+            <div class="flex quote-section--box">
                 <div class="left-section">
                     <h2>We are taking car<br> servicing seriously</h2>
                     <ul>
@@ -132,7 +131,7 @@
                         <div class="input-box">
                             <input type="text" placeholder="Enter your location">
                         </div>
-                        <button class="orange-btn">Get a quote</button>
+                        <button class="orange-btn ">Get a quote</button>
                     </form>
                 </div>
             </div>
@@ -141,7 +140,7 @@
     <!--third section -->
     <section class="third-section">
         <div class="container">
-            <div class="flex">
+            <div class="flex third-section-box">
                 <div class="left-section left-text">
                     <h2>
                       We follow a clear<span class="txt-break">
@@ -153,21 +152,21 @@
                     </p>
                     <a href="#" alt="" id="learnMore">Learn more</a>
                 </div>
-                <div class="image-box getting-started">
-                    <img src="images/Process-right.png" alt="for the time">
+                <div class="image-box getting-started ">
+                    <img src="images/Process-right.png" width="100%" height="100%" class="Process" alt="for the time">
                 </div>
             </div>
         </div>
     </section>
      <!--service section -->
     <section class="service-section">
-        <div class="container">
+        <div class="container service-section-box">
                     <p>What we Offer</p>
                     <h2>We offer full service auto repair 
                         <span class="txt-break">& maintenance.</span>
                     </h2>  
         
-                <div class="flex-box">
+                <div class="flex-box service-section-img-cont">
                     <div class="image-cont">
                     <img src="images/car.png">
                         <p>Diagnostics</p>
@@ -185,7 +184,7 @@
                         <p>Oil Filter</p>
                     </div>
                 </div>
-                <div class="flex-box">
+                <div class="flex-box service-section-img-cont">
                     <div class="image-cont">
                         <img src="images/Vector.png">
                         <p>Body work</p>
@@ -208,7 +207,7 @@
                         <a href="#" id="aboutusLink">Learn about services</a> </a>
                     </div>
                     <div class="image-box" id="arrow2">
-                        <a href="#"><img  src="images/arrow.png" alt=""></a> 
+                        <a href="#"><img  src="images/arrow.png" id="learn-more-arrow" alt=""></a> 
                     </div>
                 </div>
         </div>
@@ -246,44 +245,175 @@
     </section>
     <!--Partners section-->
     <section class="our-partners">
-        <div class="container">
+        <div class="container our-partners-box">
             <h3>Brands we Serve</h3>
-            <div class="flex-box">
-                <div class="image">
-                    <img src="images/logo-gene.png"/>
+            <div class="flex-box our-partners-box--one">
+                <div class="images">
+                    <img src="images/logo-gene.png"  class="image"/>
                 </div>
-                <div class="image">
-                    <img src="images/logo-circle.png"/>
+                <div class="images">
+                    <img src="images/logo-circle.png" class="image"/>
                 </div>
-                <div class="image">
-                    <img src="images/logo-easter.png"/>
+                <div class="images">
+                    <img src="images/logo-easter.png" class="image"/>
                 </div>
-                <div class="image">
-                    <img src="images/logo-burger.png"/>
+                <div class="images">
+                    <img src="images/logo-burger.png" class="image"/>
                 </div>
-                <div class="image">
-                    <img src="images/logo-Doc.png"/>
-                </div>
-            </div>
-            <div class="flex-box">
-                <div class="image">
-                    <img src="images/logo-gene.png"/>
-                </div>
-                <div class="image">
-                    <img src="images/logo-circle.png"/>
-                </div>
-                <div class="image">
-                    <img src="images/logo-easter.png"/>
-                </div>
-                <div class="image">
-                    <img src="images/logo-burger.png"/>
-                </div>
-                <div class="image">
-                    <img src="images/logo-Doc.png"/>
+                <div class="images">
+                    <img src="images/logo-Doc.png" class="image"/>
                 </div>
             </div>
-
+            <div class="flex-box our-partners-box--two">
+                <div class="images">
+                    <img src="images/logo-gene.png" class="image"/>
+                </div>
+                <div class="images">
+                    <img src="images/logo-circle.png" class="image"/>
+                </div>
+                <div class="images">
+                    <img src="images/logo-easter.png" class="image"/>
+                </div>
+                <div class="images">
+                    <img src="images/logo-burger.png" class="image"/>
+                </div>
+                <div class="images">
+                    <img src="images/logo-Doc.png" class="image"/>
+                </div>
+            </div>
         </div>
+    </section>
+    <!--Remarks section-->
+    <section class="remark-sectn">
+        <div class="container">
+            <h2>Our customers say the nicest things<span class="txt-break">
+                about our services.
+            </span></h2>
+            <div class="review-box remark-sectn-box">
+                <div class="review-box-one">
+                    <img src="images/Person.png">
+                    <p> I have got my car repaired at Finsweet many times
+                        before they are good at what they do. Not only
+                        did they repair my car in a short comprehensive
+                        look on all the working.
+                    </p>
+                </div>
+                <div class="review-box-one">
+                    <img src="images/Smith.png"/>
+                    <p> I have got my car repaired at Finsweet many times
+                        before they are good at what they do. Not only
+                        did they repair my car in a short comprehensive
+                        look on all the working.
+                    </p>
+                </div>
+            </div>
+                <div class="review-box-img">
+                    <div class="left-arrow">
+                        <a href="#"><img src="images/Left.png"></a> 
+                    </div>
+                    <div class="right-arrow">
+                       <a href="#"><img src="images/Arrow.png" width="40">  </a> 
+                    </div>
+                </div>
+        </div>
+    </section>
+    <!--Frequent Questions-->
+    <section class="Question-section">
+            <div class="container ">
+                <h3 id="questions">Frequently Asked Questions</h3>
+                <div class="white-bg question--first-para">
+                        <div class="flex question-sectn-box">
+                            <h4>How long should a car repair take?</h4>
+                            <div class="incrementor-icon minus-icon">
+                                <img src="images/Minus.png">
+                            </div>
+                        </div> 
+                        <p>I have got my car repaired at Finsweet many times before, 
+                            they are good at what <span class="txt-break">they do.
+                            Not only did they repair my car i have got my car repaired
+                            at Finsweet I </span> have got my car repaired at Finsweet.</p>
+                </div>
+                <div class="flex white-bg question-sectn-box">
+                    <h4>How do I schedule my car's appointment?</h4>
+                    <div class="incrementor-icon">
+                        <div class="incrementor-icon">
+                            <img src="images/Plus.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="flex white-bg question-sectn-box">
+                    <h4>What are the repair services provided?</h4>
+                    <div class="incrementor-icon">
+                        <img src="images/Plus.png">
+                    </div>
+                </div>
+                <div class="flex white-bg question-sectn-box">
+                    <h4>How do i find auto body shops near me?</h4>
+                    <div class="incrementor-icon">
+                        <img src="images/Plus.png">
+                    </div>
+                </div>
+                <div class="question-sectn--last-box">
+                    <h4>Genuine spare parts during car repair?</h4> 
+                    <div class="incrementor-icon">
+                        <img src="images/Plus.png">
+                    </div>
+                </div>
+            </div>    
+    </section>
+    <!--Footer Section-->
+    <section class="Service-footer">
+        <div class="container">
+            <div class="flex Service-footer--box">
+                   <div class="service-footer-one">
+                           <h3>Get in touch with us <span class="txt-break">for your services</span></h3>
+                           <div class="flex footer-service-img">
+                               <img src="images/facebk.png" class="facebook">
+                               <img src="images/twitter.png" class="twitter">
+                               <img src="images/instagram.png" class="instagram">
+                               <img src="images/linkedin.png" class="linkedin">
+                           </div>
+                   </div>
+                   <div class="service-footer-two">
+                       <span>
+                           <small class="small-txt">Help Line Number</small>
+                           <p>1800 265 24 52</p>
+                       </span>
+                       <span>
+                           <small class="small-txt">Address</small>
+                           <p>NH234 Public Square SanFrancisco 65368</p>
+                       </span>
+                       <span>
+                           <small class="small-txt">We are open</small>
+                           <p>Monday to Friday 9:00AM to 10:00 AM</p>
+                       </span>
+                   </div>  
+            </div>
+        </div>
+    </section> 
+    <!--Footer copyright-->
+     <section class="copyright adjustments">
+        <div class="container">
+            <div class="flex flex-footer">
+                   <div class="copyright-logo">
+                       <img src="images/footer-logo.png">   
+                   </div>
+                   <div class="footer-nav">
+                       <nav >
+                           <ul class="flex">
+                               <li><a href="index.html">Home</a></li>  
+                               <li><a href="#" id="about-us">About</a></li> Us</a></li>  
+                               <li><a href="service.html">Services</a></li>  
+                               <li><a href="#" id="blog">Blog</a></li>  
+                               <li><a href="#" id="contact">Contact us</a></li>  
+                           </ul>
+                       </nav>
+                   </div>
+                   <div class="copyright">
+                       &copy copyright Finsweet 2021.
+                   </div>
+            </div>
+       </div>
     </section>
 </body>
 </html>
